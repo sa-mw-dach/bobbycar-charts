@@ -1,0 +1,55 @@
+apiVersion: v1
+entries:
+  bobbycar-core-apps:
+  - apiVersion: v2
+    appVersion: 4.5.18
+    created: "2020-11-30T13:13:44.13908+01:00"
+    description: Bobbycar core infrastructure components
+    digest: 5bdd232be524fd5dc84eee1947efd206a801fba4b38e67bd10b7a34c8158e721
+    icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
+    keywords:
+    - Bobbycar
+    - Realtime Dashboard
+    - Car simulator Quarkus
+    - Kafka to Websocket
+    - Kafka to Datagrid
+    - Datagrid to REST API
+    - MQTT to Kafka
+    maintainers:
+    - email: ortwin@redhat.com
+      name: Ortwin Schneider
+    - email: bschmeli@redhat.com
+      name: Dr. Benjamin Schmeling
+    name: bobbycar-core-apps
+    sources:
+    - https://github.com/sa-mw-dach/bobbycar
+    type: application
+    urls:
+    - bobbycar-core-apps-0.1.0.tgz
+    version: 0.1.0
+  bobbycar-core-infra:
+  - apiVersion: v2
+    appVersion: 4.5.18
+    created: "2020-11-30T13:13:44.139741+01:00"
+    description: Bobbycar core infrastructure components
+    digest: 01d0767a98a86898cbf1bd124bb23c76fb2d471403914acd6f6c0fa86610abfa
+    icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
+    keywords:
+    - Bobbycar
+    - MQTT (AMQ Broker)
+    - Kafka (AMQ Streams)
+    - Datagrid
+    - Apache Camel-K
+    maintainers:
+    - email: ortwin@redhat.com
+      name: Ortwin Schneider
+    - email: bschmeli@redhat.com
+      name: Dr. Benjamin Schmeling
+    name: bobbycar-core-infra
+    sources:
+    - https://github.com/sa-mw-dach/bobbycar
+    type: application
+    urls:
+    - bobbycar-core-infra-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-11-30T13:13:44.13729+01:00"
