@@ -25,7 +25,7 @@ entries:
     - https://github.com/sa-mw-dach/bobbycar
     type: application
     urls:
-    - bobbycar-core-apps-0.1.0.tgz
+    - https://sa-mw-dach.github.io/bobbycar-charts/bobbycar-core-apps-0.1.0.tgz
     version: 0.1.0
   bobbycar-core-infra:
   - apiVersion: v2
@@ -50,6 +50,6 @@ entries:
     - https://github.com/sa-mw-dach/bobbycar
     type: application
     urls:
-    - bobbycar-core-infra-0.1.0.tgz
+    - https://sa-mw-dach.github.io/bobbycar-charts/bobbycar-core-infra-0.1.0.tgz
     version: 0.1.0
 generated: "2020-11-30T13:13:44.13729+01:00"
