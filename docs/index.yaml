@@ -2,8 +2,34 @@ apiVersion: v1
 entries:
   bobbycar-core-apps:
   - apiVersion: v2
+    appVersion: 4.6.12
+    created: "2021-01-28T17:03:56.462741+01:00"
+    description: Bobbycar core infrastructure components
+    digest: 7f108bc694ffecd06c62478f23253a12561e2ebc4f765d58c99eec760aa8c4f7
+    icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
+    keywords:
+    - Bobbycar
+    - Realtime Dashboard
+    - Car simulator Quarkus
+    - Kafka to Websocket
+    - Kafka to Datagrid
+    - Datagrid to REST API
+    - MQTT to Kafka
+    maintainers:
+    - email: ortwin@redhat.com
+      name: Ortwin Schneider
+    - email: bschmeli@redhat.com
+      name: Dr. Benjamin Schmeling
+    name: bobbycar-core-apps
+    sources:
+    - https://github.com/sa-mw-dach/bobbycar
+    type: application
+    urls:
+    - https://sa-mw-dach.github.io/bobbycar-charts/bobbycar-core-apps-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-01-26T13:59:01.706757+01:00"
+    created: "2021-01-28T17:03:56.461112+01:00"
     description: Bobbycar core infrastructure components
     digest: 9b44b65bfb34a6a7fb3d110917dad960903ac863e680d76e1fc4ece1fc5843cf
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -29,7 +55,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-01-26T13:59:01.696996+01:00"
+    created: "2021-01-28T17:03:56.458879+01:00"
     description: Bobbycar core infrastructure components
     digest: 4a039a99e9bffb5b06474b4676ee2bc2e461fea381bb10adeb60f0317d6ed920
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -55,7 +81,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-01-26T13:59:01.680899+01:00"
+    created: "2021-01-28T17:03:56.455451+01:00"
     description: Bobbycar core infrastructure components
     digest: 51ea9ff2dbcdc543e6130d0ee552ed73d55a0bcd6db06455b91be7c429bdbbaa
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -82,7 +108,31 @@ entries:
   bobbycar-core-infra:
   - apiVersion: v2
     appVersion: 4.6.12
-    created: "2021-01-26T13:59:01.714847+01:00"
+    created: "2021-01-28T17:03:56.471388+01:00"
+    description: Bobbycar core infrastructure components
+    digest: c8aec0340f42e6fd6f0abc8de1e033c5eeae44ab7531d33893bf968a576eb15c
+    icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
+    keywords:
+    - Bobbycar
+    - MQTT (AMQ Broker)
+    - Kafka (AMQ Streams)
+    - Datagrid
+    - Apache Camel-K
+    maintainers:
+    - email: ortwin@redhat.com
+      name: Ortwin Schneider
+    - email: bschmeli@redhat.com
+      name: Dr. Benjamin Schmeling
+    name: bobbycar-core-infra
+    sources:
+    - https://github.com/sa-mw-dach/bobbycar
+    type: application
+    urls:
+    - https://sa-mw-dach.github.io/bobbycar-charts/bobbycar-core-infra-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 4.6.12
+    created: "2021-01-28T17:03:56.466569+01:00"
     description: Bobbycar core infrastructure components
     digest: a09887d8c0b3f9725529327697388cae1028d4cbc92aeb24f9a1797714c49d5a
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -106,7 +156,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-01-26T13:59:01.712012+01:00"
+    created: "2021-01-28T17:03:56.465214+01:00"
     description: Bobbycar core infrastructure components
     digest: 4e5b8fab836ed85220464d766639bfb3a8cb6d20815dfc5bedf07b01baa2415b
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -130,7 +180,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-01-26T13:59:01.709399+01:00"
+    created: "2021-01-28T17:03:56.46396+01:00"
     description: Bobbycar core infrastructure components
     digest: 67704068f5dedf01db04fe814f972a265e38d33fcd5fae538cd9ba3d95405c36
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -155,9 +205,9 @@ entries:
   bobbycar-core-operators:
   - apiVersion: v2
     appVersion: 4.6.12
-    created: "2021-01-26T13:59:01.7179+01:00"
+    created: "2021-01-28T17:03:56.472565+01:00"
     description: Bobbycar core operators
-    digest: d05ec810cd2bf43bc95f1c4188abf6d27a488f6682d7a030a668859329072c34
+    digest: 9d10b379f99e53c1df87b8bb7031ba3e7c8b05e17e4db4a46d60bc4722f7dd4d
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
     keywords:
     - Bobbycar
@@ -178,4 +228,4 @@ entries:
     urls:
     - https://sa-mw-dach.github.io/bobbycar-charts/bobbycar-core-operators-1.0.0.tgz
     version: 1.0.0
-generated: "2021-01-26T13:59:01.671574+01:00"
+generated: "2021-01-28T17:03:56.446248+01:00"
