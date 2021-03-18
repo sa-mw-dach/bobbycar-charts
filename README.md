@@ -4,12 +4,13 @@ Helm Chart repository for the Bobbycar demonstrator:
 
 ## Core Charts:
 
+- bobbycar-core-operators
 - bobbycar-core-infra
 - bobbycar-core-apps
 
 ## Optional Charts:
 
-- tbd
+- bobbycar-core-serverless
 
 ### Update and index the repo
 
