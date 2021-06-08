@@ -10,7 +10,8 @@ Helm Chart repository for the Bobbycar demonstrator:
 
 ## Optional Charts:
 
-- bobbycar-core-serverless
+- bobbycar-opt-serverless
+- bobbycar-opt-dev-base
 
 ### Update and index the repo
 
