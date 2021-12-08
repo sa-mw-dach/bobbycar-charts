@@ -4,7 +4,6 @@ Helm Chart repository for the Bobbycar demonstrator:
 
 ## Core Charts:
 
-- bobbycar-core-operators
 - bobbycar-core-infra
 - bobbycar-core-apps
 
@@ -12,6 +11,7 @@ Helm Chart repository for the Bobbycar demonstrator:
 
 - bobbycar-opt-serverless
 - bobbycar-opt-dev-base
+- bobbycar-opt-dev-pipelines
 
 ### Update and index the repo
 
