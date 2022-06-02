@@ -2,8 +2,34 @@ apiVersion: v1
 entries:
   bobbycar-core-apps:
   - apiVersion: v2
+    appVersion: 4.9.15
+    created: "2022-06-02T12:18:04.002283+02:00"
+    description: Bobbycar core infrastructure components
+    digest: 5614253cb5b62599a722f27bdc375617697d7e78cf7cceaa3e1737f15e3bf332
+    icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
+    keywords:
+    - Bobbycar
+    - Realtime Dashboard
+    - Car simulator Quarkus
+    - Kafka to Websocket
+    - Kafka to Datagrid
+    - Datagrid to REST API
+    - MQTT to Kafka
+    maintainers:
+    - email: ortwin@redhat.com
+      name: Ortwin Schneider
+    - email: bschmeli@redhat.com
+      name: Dr. Benjamin Schmeling
+    name: bobbycar-core-apps
+    sources:
+    - https://github.com/sa-mw-dach/bobbycar
+    type: application
+    urls:
+    - https://sa-mw-dach.github.io/bobbycar-charts/bobbycar-core-apps-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v2
     appVersion: 4.8.18
-    created: "2021-12-08T14:58:09.473768+01:00"
+    created: "2022-06-02T12:18:03.995446+02:00"
     description: Bobbycar core infrastructure components
     digest: c29df75de446e34733c333ed20f2b60104d7cf1b88778c2aa20f2f0de00a5fcf
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -29,7 +55,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 4.6.12
-    created: "2021-12-08T14:58:09.468754+01:00"
+    created: "2022-06-02T12:18:03.990627+02:00"
     description: Bobbycar core infrastructure components
     digest: 8a31d6fc6f440bdb9f4323f7bfe253d79383a4588153a08e2efc9e8ff84bec37
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -55,7 +81,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 4.6.12
-    created: "2021-12-08T14:58:09.459069+01:00"
+    created: "2022-06-02T12:18:03.985954+02:00"
     description: Bobbycar core infrastructure components
     digest: 7f108bc694ffecd06c62478f23253a12561e2ebc4f765d58c99eec760aa8c4f7
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -81,7 +107,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-12-08T14:58:09.453592+01:00"
+    created: "2022-06-02T12:18:03.980631+02:00"
     description: Bobbycar core infrastructure components
     digest: 9b44b65bfb34a6a7fb3d110917dad960903ac863e680d76e1fc4ece1fc5843cf
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -107,7 +133,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-12-08T14:58:09.442261+01:00"
+    created: "2022-06-02T12:18:03.963508+02:00"
     description: Bobbycar core infrastructure components
     digest: 4a039a99e9bffb5b06474b4676ee2bc2e461fea381bb10adeb60f0317d6ed920
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -133,7 +159,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-12-08T14:58:09.437484+01:00"
+    created: "2022-06-02T12:18:03.957098+02:00"
     description: Bobbycar core infrastructure components
     digest: 51ea9ff2dbcdc543e6130d0ee552ed73d55a0bcd6db06455b91be7c429bdbbaa
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -159,8 +185,32 @@ entries:
     version: 0.1.0
   bobbycar-core-infra:
   - apiVersion: v2
+    appVersion: 4.9.15
+    created: "2022-06-02T12:18:04.012147+02:00"
+    description: Bobbycar core infrastructure components
+    digest: fb025fa967fa3da96f3f5a42ff06ef26807e9b28371b5b2d00744b4b915acc45
+    icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
+    keywords:
+    - Bobbycar
+    - MQTT (AMQ Broker)
+    - Kafka (AMQ Streams)
+    - Datagrid
+    - Apache Camel-K
+    maintainers:
+    - email: ortwin@redhat.com
+      name: Ortwin Schneider
+    - email: bschmeli@redhat.com
+      name: Dr. Benjamin Schmeling
+    name: bobbycar-core-infra
+    sources:
+    - https://github.com/sa-mw-dach/bobbycar
+    type: application
+    urls:
+    - https://sa-mw-dach.github.io/bobbycar-charts/bobbycar-core-infra-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v2
     appVersion: 4.8.18
-    created: "2021-12-08T14:58:09.490302+01:00"
+    created: "2022-06-02T12:18:04.010176+02:00"
     description: Bobbycar core infrastructure components
     digest: e066a2ee2eb96e5ce27afd21c3411727d5bfdc867dad96c83581b41d3a8568ac
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -184,7 +234,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 4.6.12
-    created: "2021-12-08T14:58:09.482359+01:00"
+    created: "2022-06-02T12:18:04.008305+02:00"
     description: Bobbycar core infrastructure components
     digest: c8aec0340f42e6fd6f0abc8de1e033c5eeae44ab7531d33893bf968a576eb15c
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -208,7 +258,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 4.6.12
-    created: "2021-12-08T14:58:09.480944+01:00"
+    created: "2022-06-02T12:18:04.006494+02:00"
     description: Bobbycar core infrastructure components
     digest: a09887d8c0b3f9725529327697388cae1028d4cbc92aeb24f9a1797714c49d5a
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -232,7 +282,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-12-08T14:58:09.48003+01:00"
+    created: "2022-06-02T12:18:04.005019+02:00"
     description: Bobbycar core infrastructure components
     digest: 4e5b8fab836ed85220464d766639bfb3a8cb6d20815dfc5bedf07b01baa2415b
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -256,7 +306,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-12-08T14:58:09.478974+01:00"
+    created: "2022-06-02T12:18:04.003554+02:00"
     description: Bobbycar core infrastructure components
     digest: 67704068f5dedf01db04fe814f972a265e38d33fcd5fae538cd9ba3d95405c36
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -281,7 +331,7 @@ entries:
   bobbycar-opt-dev-base:
   - apiVersion: v2
     appVersion: 4.8.18
-    created: "2021-12-08T14:58:09.492602+01:00"
+    created: "2022-06-02T12:18:04.019711+02:00"
     description: Bobbycar base development components
     digest: 4ce81c486a611f584648288f64ac780b356fe36fc7be9b104fe2ff9297abfaad
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -305,7 +355,7 @@ entries:
   bobbycar-opt-dev-pipelines:
   - apiVersion: v2
     appVersion: 4.8.18
-    created: "2021-12-08T14:58:09.495264+01:00"
+    created: "2022-06-02T12:18:04.021491+02:00"
     description: Bobbycar OpenShift Pipelines
     digest: ce93d48b564280d223bfe09e2427963cfeff6ce73f911685af906f7b084790b3
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -331,7 +381,7 @@ entries:
   bobbycar-opt-serverless:
   - apiVersion: v2
     appVersion: 4.8.18
-    created: "2021-12-08T14:58:09.499236+01:00"
+    created: "2022-06-02T12:18:04.030488+02:00"
     description: Bobbycar Serverless
     digest: 04302aaa04b08ce66a51fd15a06167c49601a585fce927dfe39069e83ac18b6e
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -355,7 +405,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 4.5.24
-    created: "2021-12-08T14:58:09.497096+01:00"
+    created: "2022-06-02T12:18:04.023017+02:00"
     description: Bobbycar Serverless
     digest: e9495f0f843c5e9a5c3a5c9b9f9e795473617540d096496d75d9b4d30e30d5a0
     icon: https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/car-2-icon-14-256.png
@@ -377,4 +427,4 @@ entries:
     urls:
     - https://sa-mw-dach.github.io/bobbycar-charts/bobbycar-opt-serverless-1.0.0.tgz
     version: 1.0.0
-generated: "2021-12-08T14:58:09.420726+01:00"
+generated: "2022-06-02T12:18:03.946657+02:00"
