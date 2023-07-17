@@ -6,10 +6,10 @@ Helm Chart repository for the Bobbycar demonstrator:
 
 - bobbycar-core-infra
 - bobbycar-core-apps
+- bobbycar-opt-serverless
 
 ## Optional Charts:
 
-- bobbycar-opt-serverless
 - bobbycar-opt-dev-base
 - bobbycar-opt-dev-pipelines
 
